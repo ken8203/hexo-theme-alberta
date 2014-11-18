@@ -1,0 +1,30 @@
+<header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="<%= theme.your_img %>" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+      </h1>
+      <% if (theme.subtitle){ %>
+        <h2 id="subtitle-wrap">
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+        </h2>
+      <% } %>
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        <% for (var i in theme.menu){ %>
+          <li><a href="<%- url_for(theme.menu[i]) %>"><i class="fa <%= theme.menu_icon[i] %> icon-setting"></i></a></li>
+        <% } %>
+        <% if (theme.rss){ %>
+          <li><a href="<%- theme.rss %>"><i class="fa fa-rss %> icon-setting"></i></a></li>
+        <% } %>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

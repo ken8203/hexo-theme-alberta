@@ -1,0 +1,26 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+rss: /atom.xml
+
+menu_icon:
+  Home: fa-home
+  Archives: fa-archive
+  About: fa-user
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+#your personal image
+your_img: holder.js/150x150
+
+# Miscellaneous
+google_analytics: 
+favicon:
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
