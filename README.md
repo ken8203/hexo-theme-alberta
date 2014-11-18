@@ -37,6 +37,12 @@ menu:
   About: /about
 rss: /atom.xml
 
+# Meni Icon
+menu_icon:
+  Home: fa-home
+  Archives: fa-archive
+  About: fa-user
+
 # Content
 excerpt_link: Read More
 fancybox: true
