@@ -37,7 +37,7 @@ menu:
   About: /about
 rss: /atom.xml
 
-# Meni Icon
+# Menu Icon
 menu_icon:
   Home: fa-home
   Archives: fa-archive
