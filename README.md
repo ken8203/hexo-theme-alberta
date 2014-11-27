@@ -4,7 +4,7 @@ A new theme for [Hexo] based on [landscape](https://github.com/hexojs/hexo-theme
 
 - [Preview](http://jaychung.tw/)
 
-![](http://i.imgur.com/VX6cySy.png)
+![](http://i.imgur.com/SlKOEkR.png)
 
 ![](http://i.imgur.com/N1j1TLg.png)
 
