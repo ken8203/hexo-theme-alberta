@@ -1,5 +1,6 @@
 .article
   margin: block-margin 0
+  
 
 .article-inner
   @extend $block
@@ -22,8 +23,13 @@
     content: "\2022"
 
 .article-category-link
-  @extend $block-caption
-  margin: 0 12px 1em
+  @extend $category-label
+  padding: 2px
+  background-color: color-sidebar-text
+  border-style: solid
+  border-color: color-border
+  border-width: 1px 0
+  border-radius: 3px 
 
 .article-header
   padding: article-padding article-padding 0
