@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-rss: /atom.xml
+#rss: /atom.xml
 
 menu_icon:
   Home: fa-home
