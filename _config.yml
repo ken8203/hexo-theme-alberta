@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-rss: /atom.xml
+#rss: /atom.xml
 
 menu_icon:
   Home: fa-home
@@ -15,7 +15,7 @@ excerpt_link: Read More
 fancybox: true
 
 #your personal image
-your_img: holder.js/150x150
+your_img: /images/me.jpg
 
 # Miscellaneous
 google_analytics: 
@@ -24,3 +24,5 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+comment_provider: disqus
