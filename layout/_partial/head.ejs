@@ -2,6 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="canonical" href="<%= page.permalink %>">
+  <script type="text/javascript">
+    var host = "tkqubo.github.io";
+    if ((host == window.location.host) && (window.location.protocol != "https:")) {
+      window.location.protocol = "https";
+    }
+  </script>
   <%
   var title = page.title;
 
